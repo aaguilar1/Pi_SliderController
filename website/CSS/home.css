@@ -1,0 +1,52 @@
+
+
+/* naviagtion bar */
+.header {
+    
+    padding:45px 0 20 px 40px;
+    border: 2px solid black;
+/*    box-sizing: border-box;*/
+}
+
+/* Tabs on navigation bar*/
+.menu{
+    background:#1a1a1a;
+    padding: 20px 20px 20px 20px;
+}
+
+
+.menu a {
+    color : #FFF;
+    text-decoration: none;
+    font-size : 25px;
+    font-family: "Arial Narrow", "Myriad Pro";
+}
+
+.menu a:hover { 
+color:#4CAF50;
+}
+
+
+
+
+
+/* footer div*/
+footer{
+    padding: 6px 6px 6px 6px;
+    background: #1a1a1a;
+    font-family: "Lucida Sans Unicode";
+    color: #FFF;
+    font-size:15px;
+    text-decoration:right;
+    float:right;
+}
+
+footer a{
+    text-decoration:none;
+}
+
+.icons{
+    text-align: center;
+    float:center;
+    position:inherit;
+}

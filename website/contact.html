@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lan ="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width,initiial-scale=1.0">
+    <title>Contact</title>
+    <link rel = "stylesheet" href ="CSS/home.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+</head>
+<body>
+    <div class = "container">
+     <div id="header">
+     <nav class="menu">
+        <a href ="contact.html" style="float:right"> Contact <br> </a> &nbsp; &nbsp; &nbsp;
+        <a href="gallery.html" style="float:right"> Gallery Prints <br>  </a> &nbsp; &nbsp; &nbsp; 
+        <a href="index.html" style="float:right"> Home <br> </a> &nbsp; &nbsp; &nbsp; 
+    </nav>
+    </div>   
+    
+<!--  Contact information -->
+    <article  class="main">
+    <div id="form">
+    <form method = "post" action ="process.php">
+        <p>
+        <label for ="name">Name:</label>
+        <input type="text" placeholder ="Enter Name" name="name" required>
+        </p>
+ 
+
+        <p>
+        <label for ="email">Email:</label>
+        <input type="text" placeholder ="Enter Email" name="email" required>
+        </p>
+        
+         <p>
+        <label for ="topic">Subject:</label>
+        <input type="text" placeholder ="Enter Message" name="subject" required>
+        </p>
+        
+         <p>    
+        <label for ="message"></label>
+        <textarea id="message" name="message" id="" cols="30" rows="10" required></textarea> 
+        </p>
+    
+        <p>
+        <input id="submit" type="submit" name="submit" value="Send Message">
+        </p>    
+    </form>
+    
+    </div>
+    </article>
+
+
+<!--
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/23fKTdGTlPI" frameborder="0" allowfullscreen></iframe>
+-->
+
+
+
+ <!--  Footer      -->
+        <div id = "footer">
+<!--       <footer>-->
+        <nav class="connect" style="box-sizing: border-box;">
+        <h4 style="text-align:center">Follow us</h4>
+<!--         icon nav bar   -->
+        <div class="icons">
+        <a href="https://www.facebook.com/rutgers.she/timeline"><image class = "Facebook" src = "Images/social_facebook_box_blue.png" style="width:5%"></image></a> &nbsp; &nbsp; &nbsp; 
+        <a href="https://www.instagram.com/andrew.santiago_/"><image class = "instagram" src = "images/instagram-Logo-PNG-Transparent-Background-download.png" style = "width:5%"></image></a> &nbsp; &nbsp; &nbsp; 
+        <a href="https://www.flickr.com/people/124500752@N06/?rb=1"><image class = "calendar" src = "Images/flickr-logo-png-3.png" style = "width:5%"></image></a> 
+        </div>
+            <p style ="text-align:center"> &copy;  All Rights Reserved</p>
+        </nav> 
+<!--       </footer>-->
+        </div>  
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+/* Tabs on navigation bar*/
+.menu{
+    background:#1a1a1a;
+    padding: 20px 20px 20px 20px;
+   
+}
+
+
+.menu a {
+    color : #FFF;
+    text-decoration: none;
+    font-size : 25px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    border-left: 10px;
+    border-right: 10px;
+    border-bottom: 10px;
+    border-top: 10px;
+}
+
+.menu a:hover { 
+color:#4CAF50;
+}
+
+/*Cover pic*/
+.cover
+{
+  width: 100%;
+}
+
+.water_img{
+  height:500px;
+  object-fit: cover;
+}
+
+
+/* image frames */
+img
+{
+ width:auto;
+ box-shadow:0px 0px 20px #cecece;
+ -moz-transform: scale(0.7);
+ -moz-transition-duration: 0.6s; 
+ -webkit-transition-duration: 0.6s;
+ -webkit-transform: scale(0.7);
+ 
+ -ms-transform: scale(0.7);
+ -ms-transition-duration: 0.6s; 
+}
+img:hover
+{
+  box-shadow: 20px 20px 20px #dcdcdc;
+ -moz-transform: scale(0.8);
+ -moz-transition-duration: 0.6s;
+ -webkit-transition-duration: 0.6s;
+ -webkit-transform: scale(0.8);
+ 
+ -ms-transform: scale(0.8);
+ -ms-transition-duration: 0.6s;
+ 
+}

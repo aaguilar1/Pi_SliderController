@@ -2,6 +2,8 @@ body {
     background: #FFF;
     box-sizing: border-box;
     color:#FFF;
+    background-image: url("water.jpg");
+    
 }
 
 .container {
@@ -64,6 +66,20 @@ color:#4CAF50;
     top: 200px;
     
     
+}
+
+@media screen and (max-width: 120px){
+    .logo_img{
+    
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    top: 200px;
+    left: 10px;
+    
+    
+    }
 }
 
 @media screen and (max-width: 1200px){

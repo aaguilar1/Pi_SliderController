@@ -122,3 +122,28 @@ li.dropdown {
  background-color: slategrey;
     
 }
+
+
+#icon_nav{
+    background-color: transparent;
+/*    clear: both; */
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 1px; 
+    color:#1a1a1a;
+    font-family: "Lucida Sans Unicode";
+    font-size:15px;
+    text-align: center;
+    position:relative;
+    bottom:-540px;
+    
+/*    position:fixed;*/
+/*    bottom:0;*/
+/*    top:0;*/
+}
+
+.icons{
+    text-align: center;
+    float:center;
+    position:inherit;
+}

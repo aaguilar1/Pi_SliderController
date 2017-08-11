@@ -6,16 +6,21 @@ body {
 }
 
 #Nav {
- width:100%;
- height: 100px;
- background-image: url(Images/water.jpg);
+width: 100%;
+height: 800px;
+ display: inline-block;
+ background-image: url(../Images/water.jpg);
+ resize: both;
+ z-index: -1 position:relative;
+ background-repeat: no-repeat;
 }
 
 #Nav_wrapper{
  background:transparent;
  margin-left:auto;
  margin-right:80px;
- padding: 25px
+ padding: 25px;
+ z-index: -1;
  
 }
 
@@ -40,11 +45,14 @@ body {
 }
 
 #Logo {
+    max-height: 100%;
+    max-width: 100%;
     float: left;
     padding: 10px;
-    margin-left: 40px;
-    background-image:url(Images/Logo.png); 
-    margin-top: -68px
+    margin-left: 10px;
+    margin-top: -68px;
+    z-index;
+    
     
 }
 #Galleries_Container{

@@ -1,6 +1,6 @@
 body {
  
- font-family: Helvetica;
+ font-family: sans-serif;
  text-align:center;
 
 }
@@ -125,17 +125,19 @@ li.dropdown {
 
 
 #icon_nav{
-    background-color: transparent;
+    background-color:
+        transparent;
+    font-family: sans-serif;
 /*    clear: both; */
     max-width: 100%; 
     margin: 0 auto; 
     padding: 1px; 
-    color:#1a1a1a;
-    font-family: "Lucida Sans Unicode";
-    font-size:15px;
+    color:whitesmoke;
+    font-size:22px;
     text-align: center;
     position:relative;
     bottom:-540px;
+    opacity: 0.9;
     
 /*    position:fixed;*/
 /*    bottom:0;*/
